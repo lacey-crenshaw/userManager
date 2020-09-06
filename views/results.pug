@@ -1,0 +1,27 @@
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        style
+            include styles.css
+    body
+        h2 Results
+        div
+            div(class = "userList" style="display:flex;") 
+                div UserID
+                div first
+                div last
+                div email
+                div age
+        
+        each user in users
+            div(style="display:flex;" class="userList") 
+                div=user.id
+                div=user.first
+                div=user.last
+                div=user.email
+                div=user.age
+
+        a(href="/user") All Users
+        a(href='/') Home
