@@ -1,4 +1,4 @@
-# UserManagment_mongoDb
+# UserManager
 
 MTech Class Project - User Management to MongoDB 
 
